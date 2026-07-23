@@ -19,13 +19,13 @@ export const menuData = {
     {name:"Veggie BBQ",price:"€11.00",desc:"Brioche Bun, Falafel, Cheese, Burger Sauce, Pickle, Onion Rings, Roasted Onion, BBQ Sauce, Tomato, Lettuce",spice:0,img:""},
   ],
   drinks: [
-    {name:"Coca Cola",price:"€2.50",desc:"330ml Can",spice:0,img:"/graphics/cold drinks sprite cola fanta.png"},
-    {name:"Coca Cola Zero",price:"€2.50",desc:"330ml Can",spice:0,img:"/graphics/cold drinks sprite cola fanta.png"},
-    {name:"Fanta",price:"€2.50",desc:"330ml Can",spice:0,img:"/graphics/cold drinks sprite cola fanta.png"},
-    {name:"Sprite",price:"€2.50",desc:"330ml Can",spice:0,img:"/graphics/cold drinks sprite cola fanta.png"},
+    {name:"Coca Cola",price:"€2.50",desc:"330ml Can",spice:0,img:"/graphics/cold-drinks-sprite-cola-fanta.png"},
+    {name:"Coca Cola Zero",price:"€2.50",desc:"330ml Can",spice:0,img:"/graphics/cold-drinks-sprite-cola-fanta.png"},
+    {name:"Fanta",price:"€2.50",desc:"330ml Can",spice:0,img:"/graphics/cold-drinks-sprite-cola-fanta.png"},
+    {name:"Sprite",price:"€2.50",desc:"330ml Can",spice:0,img:"/graphics/cold-drinks-sprite-cola-fanta.png"},
     {name:"Capri Sonne",price:"€1.50",desc:"200ml",spice:0,img:"/graphics/caprisun.png"},
     {name:"Water",price:"€2.00",desc:"500ml",spice:0,img:"/graphics/water.png"},
-    {name:"Mezzo Mix",price:"€2.50",desc:"330ml Can",spice:0,img:"/graphics/cold drinks sprite cola fanta.png"},
+    {name:"Mezzo Mix",price:"€2.50",desc:"330ml Can",spice:0,img:"/graphics/cold-drinks-sprite-cola-fanta.png"},
     {name:"Red Bull",price:"€3.50",desc:"250ml Can",spice:0,img:"/graphics/redbull.png"},
   ]
 };

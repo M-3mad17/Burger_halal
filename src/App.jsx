@@ -23,7 +23,7 @@ function Navbar({ lang, toggleLang }) {
     <nav className="navbar navbar-expand-lg fixed-top" id="mainNav" style={{ background: scrolled ? 'rgba(10,10,10,.99)' : 'rgba(10,10,10,.97)' }}>
       <div className="container">
         <a className="navbar-brand d-flex align-items-center gap-2" href="#">
-          <img src="/graphics/fooiewagen logo.svg" alt="The Foodie Wagon" />
+          <img src="/graphics/fooiewagen-logo.svg" alt="The Foodie Wagon" />
           <div className="d-none d-sm-block">
             <div style={{ color: 'var(--gold)', fontWeight: 900, fontSize: '1.1rem', letterSpacing: '.06em' }}>
               {t(lang, 'THE FOODIE WAGON', 'ذا فودي واجون')}
@@ -64,7 +64,7 @@ function Hero({ lang }) {
       <div className="container position-relative">
         <div className="row align-items-center g-5">
           <div className="col-lg-6 order-2 order-lg-1 fade-up">
-            <img src="/graphics/halal logo.svg" alt="Halal" style={{ height: 64 }} className="mb-3" />
+            <img src="/graphics/halal-logo.svg" alt="Halal" style={{ height: 64 }} className="mb-3" />
             <div className="hero-title mb-2">
               <span className="line1">{t(lang, 'THE FOODIE', 'ذا فودي')}</span><br />
               <span className="line2">{t(lang, 'WAGON', 'واجون')}</span>
@@ -99,7 +99,7 @@ function Hero({ lang }) {
             </div>
           </div>
           <div className="col-lg-6 order-1 order-lg-2 text-center fade-up">
-            <img src="/graphics/tasty burger.png" alt="Burger" className="hero-burger" />
+            <img src="/graphics/tasty-burger.png" alt="Burger" className="hero-burger" />
           </div>
         </div>
       </div>
@@ -174,7 +174,7 @@ function Menu({ lang }) {
                   </div>
                   <p className="desc">{item.desc}</p>
                   {item.spice > 0 && <SpiceDots n={item.spice} />}
-                  <img src="/graphics/halal logo.svg" alt="Halal" style={{ height: 28, marginTop: '.5rem' }} />
+                  <img src="/graphics/halal-logo.svg" alt="Halal" style={{ height: 28, marginTop: '.5rem' }} />
                 </div>
               </div>
             </div>
@@ -382,7 +382,7 @@ function Footer({ lang }) {
         <div className="row g-4">
           <div className="col-md-4">
             <div className="d-flex align-items-center gap-3 mb-3">
-              <img src="/graphics/fooiewagen logo.svg" alt="" style={{ height: 48 }} />
+              <img src="/graphics/fooiewagen-logo.svg" alt="" style={{ height: 48 }} />
               <div>
                 <div style={{ color: 'var(--gold)', fontWeight: 900, letterSpacing: '.06em' }}>{t(lang, 'THE FOODIE WAGON', 'ذا فودي واجون')}</div>
                 <div style={{ color: '#666', fontSize: '.65rem', letterSpacing: '.12em' }}>{t(lang, 'WHERE FLAVOR HITS THE ROAD', 'حيث النكهة تصبح رحلة')}</div>
@@ -413,7 +413,7 @@ function Footer({ lang }) {
             <span>{t(lang, 'All rights reserved.', 'جميع الحقوق محفوظة.')}</span>
           </div>
           <div className="d-flex align-items-center gap-3">
-            <img src="/graphics/halal logo.svg" alt="Halal" style={{ height: 40 }} />
+            <img src="/graphics/halal-logo.svg" alt="Halal" style={{ height: 40 }} />
             <a href="https://www.instagram.com/foodiewagon_demo" target="_blank" className="social-btn" rel="noreferrer"><i className="bi bi-instagram"></i></a>
           </div>
         </div>
